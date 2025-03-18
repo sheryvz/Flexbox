@@ -1,0 +1,25 @@
+* {
+    box-sizing: content-box;
+}
+
+
+body {
+    font-family: sans-serif;
+    color: beige;
+    background-color: blueviolet;
+
+}
+
+.container {
+background-color: burlywood;
+
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 36px;
+    background-color: transparent;
+    border: 2px solid darkmagenta;
+}

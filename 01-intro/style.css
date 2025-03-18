@@ -10,4 +10,13 @@ body {
     padding: 1rem;
 }
 
+.item-flex {
+    background-color: brown;
 
+    /* HABILITAMOS FLEXBOX EN UN ELEMENTO HIJO */
+    display: flex;
+}
+.item-flex > h2 {
+    color: aliceblue;
+    background-color: blue;
+}
